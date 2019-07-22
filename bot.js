@@ -17,5 +17,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'poop') {
+    	message.reply('ball');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.602896931177496590);
