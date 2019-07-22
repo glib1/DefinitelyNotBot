@@ -18,10 +18,10 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'poop') {
-    	message.reply('ball');
+    if (message.content === 'why did the chiken cross the road?') {
+    	message.reply('because he needed the god poop eggy butt roal');
   	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.602896931177496590);
+client.login(process.env.NjAyODk2OTMxMTc3NDk2NTkw.XTZC6g.qfczYCZgUuEeTttpx4l-wY3qIVs);
