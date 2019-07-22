@@ -16,6 +16,11 @@ client.on('message', message => {
     	message.reply('BONG!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'there is a troller whad do i do?') {
+    	message.channel.send('dm the owner and ask the owner to tell you what happened the owners username is proRobloxUSER');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
