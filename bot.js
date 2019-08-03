@@ -24,4 +24,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.NjAyODk2OTMxMTc3NDk2NTkw.XTZC6g.qfczYCZgUuEeTttpx4l-wY3qIVs);
+client.login(process.env.);
